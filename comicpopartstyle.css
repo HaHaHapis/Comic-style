@@ -3,6 +3,27 @@
 a {
   text-decoration: none;
 }
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+.panel {
+  height:10em;
+}
+.title_wrapper{
+  max-width: 500px;
+  max-height: 100px;
+}
+
+.title{
+  place-items:center;
+  align-content:center;
+  font-family: "Poppins", sans-serif;
+  font-size: 4vw;
+  font-weight: 500;
+  letter-spacing: 5px;
+}
+
+}
+
 .bx {
   color: #000;
 }
